@@ -7,10 +7,10 @@ import cors from "cors";
 const app = express();
 app.use(
   cors({
-    origin: "https://necatimertmetin.github.io/", // React uygulamanızın çalıştığı portu buraya yazın
-    methods: "GET",
+    origin: "https://necatimertmetin.github.io", // Bu şekilde slash olmadan da deneyebilirsiniz
+    methods: "GET, POST, PUT, DELETE, OPTIONS",
     allowedHeaders: "Content-Type",
-    credentials: true, // Tarayıcıda cookie veya kimlik doğrulama kullanılıyorsa
+    credentials: true,
   })
 );
 
