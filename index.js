@@ -7,7 +7,7 @@ import cors from "cors";
 const app = express();
 app.use(
   cors({
-    origin: "http://localhost:5173", // React uygulamanızın çalıştığı portu buraya yazın
+    origin: "https://necatimertmetin.github.io/", // React uygulamanızın çalıştığı portu buraya yazın
     methods: "GET",
     allowedHeaders: "Content-Type",
     credentials: true, // Tarayıcıda cookie veya kimlik doğrulama kullanılıyorsa
